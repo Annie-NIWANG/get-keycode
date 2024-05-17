@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color:lightgrey;
+    display:flex;
+    align-items:center; 
+    justify-content:center; 
+    text-align:center; 
+    height:100vh; 
+    overflow:hidden;
+    margin:0;
+
+}
+.key{
+    
+    border: solid; 
+    border-width: 2px; 
+    font-size:30px;
+    font-weight: bolder; 
+    align-items:center;
+    padding:20px; 
+    margin :10px; 
+    position:relative; 
+    border-radius: 10px; 
+    background-color: bisque;
+    box-shadow: 10px;
+    display: inline-flex; 
+}
+.key small{
+   position: absolute;
+    top: -25px;
+    left:0;
+    text-align:center;
+    width: 100%;
+    color:black;
+    font-size:15px;
+}
